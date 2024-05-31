@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=, initial-scale=1.0">
+  <script src="calculator.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Calculadora de Namoro</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="from-image">
+      <img src="images/lovee.svg" alt="Mulher segurando balões em formato de coração">
+    </div>
+    <div class="form">
+      <form id="calculadora" onsubmit="Calcular()">
+        <h1 id="title">
+          Calculadora de Namoro
+          <i class="fa-solid fa-heart"></i>
+        </h1>
+        <div id="button">
+          <button type="button" id="Casal" onclick="buttonCasal()">Casal</button>
+          <button type="button" id="Trisal" onclick="buttonTrisal()">Trisal</button><br>
+        </div>
+        <div class="input-box">
+          <label for="casal1">Qual sua idade?</label><br>
+          <input type="number" id="anos1" placeholder="Anos" required>
+          <input type="number" id="meses1" placeholder="Meses"><br><br>
+
+          <label for="casal2">Qual a idade do seu parceiro(a)?</label><br>
+          <input type="number" id="anos2" placeholder="Anos" required>
+          <input type="number" id="meses2" placeholder="Meses"><br><br>
+
+          <div id="formulariotrisal" hidden>
+            <label for="trisal">Qual a idade do seu parceiro(a)?</label><br>
+            <input type="number" id="anostrisal" placeholder="Anos">
+            <input type="number" id="mesestrisal" placeholder="Meses">
+          </div><br>
+          <div id="calcular1">
+            <input type="submit" value="Calcular" id="calcular">
+          </div>
+        </div>
+        <div id="Textofinal">Consideramos justa toda forma de amor. </div>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

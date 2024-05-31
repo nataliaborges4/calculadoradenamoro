@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,800;0,900;1,100;1,200;1,900&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: #7a3c68;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  gap: 3.5rem;
+}
+
+.from-image {
+  width: 31rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.from-image img {
+  width: 35rem;
+}
+
+.form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem;
+}
+
+#button {
+  display: inline-block;
+  text-align: center;
+
+}
+
+#Casal {
+  background-color: #ff81a3;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding:6px 31px;
+  text-align: center;
+  text-decoration: center;
+  font-size: 16px;
+
+}
+
+#Casal:hover {
+  background-color: #ebdbe898;
+  color: rgb(20, 19, 19);
+}
+
+#Trisal {
+  background-color: #ff81a3;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 6px 31px;
+  text-align: center;
+  text-decoration: center;
+  font-size: 16px;
+}
+
+#Trisal:hover {
+  background-color: #ebdbe898;
+  color: rgb(20, 19, 19);
+}
+
+#calcular {
+  width: 200px;
+  background-color: #ff81a3;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+}
+
+#calcular:hover {
+  background-color: #ebdbe898;
+  color: rgb(20, 19, 19);
+}
+
+#calcular1 {
+  text-align: center;
+}
+
+#calculadora {
+  background-color: #ffb8c5;
+  width: 25rem;
+  height: 35rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  color: #0a000a;
+  border-radius: 8px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+#title {
+  font-size: 2.0rem;
+  position: relative;
+  text-align: center;
+}
+
+
+.input-box {
+  font-size: 1.2rem;
+  font-weight: 500;
+  align-items: center;
+  text-align: center;
+}
+
+#anos1 {
+  width: 30%;
+  background-color: transparent;
+  font-size: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+#meses1 {
+  width: 30%;
+  background-color: transparent;
+  font-size: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+#anos2 {
+  width: 30%;
+  background-color: transparent;
+  font-size: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+#meses2 {
+  width: 30%;
+  background-color: transparent;
+  font-size: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+#anostrisal {
+  width: 30%;
+  background-color: transparent;
+  font-size: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+#mesestrisal {
+  width: 30%;
+  background-color: transparent;
+  font-size: 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+#Textofinal{
+  color: #7a3c68;
+}
